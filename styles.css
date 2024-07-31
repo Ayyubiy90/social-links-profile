@@ -23,7 +23,7 @@ body {
 .profile__image {
   width: 80px;
   height: 85px;
-  border-radius: 100%;
+  border-radius: 50%;
   margin-bottom: 1rem;
 }
 
@@ -102,4 +102,41 @@ body {
 
 .attribution a:hover {
   color: hsl(75, 94%, 57%);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 375px) {
+  .profile {
+    padding: 1.5rem;
+    max-width: 280px;
+  }
+
+  .profile__image {
+    width: 70px;
+    height: 75px;
+  }
+
+  .profile__name {
+    font-size: 0.9rem;
+  }
+
+  .profile__location,
+  .profile__bio {
+    font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .profile__social-link {
+    font-size: 0.8rem;
+    padding: 0.7rem 0.9rem;
+  }
+
+  .profile__social-link i {
+    font-size: 1rem;
+  }
+
+  .attribution {
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+  }
 }
