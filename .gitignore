@@ -17,3 +17,8 @@
 
 #Ignore pushing fonts folder
 assets/fonts/
+
+# Do not ignore screenshot in the designs folder
+design/active-states.jpg
+design/desktop-design.jpg
+design/mobile-design.jpg

@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot 📸
 
-![Preview](./design/destkop-design.jpg)
+![Preview](./design/Screenshot%20(28).png)
 
 ### Links
 
