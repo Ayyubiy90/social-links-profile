@@ -57,6 +57,7 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: hsl(0, 0%, 20%);
   border-radius: 8px;
   font-size: 0.9rem;
@@ -65,8 +66,14 @@ body {
 }
 
 .profile__social-link i {
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   font-size: 1.1rem;
+}
+
+.profile__social-link span {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem; /* This offsets the icon's right margin for perfect centering */
 }
 
 .profile__social-link:hover,
