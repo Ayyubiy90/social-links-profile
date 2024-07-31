@@ -53,15 +53,20 @@ body {
 }
 
 .profile__social-link {
-  color: hsl(0, 0%, 100%); /* Changed to white for better contrast */
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
   background-color: hsl(0, 0%, 20%);
-  border-radius: 8px; /* Increased border radius */
+  border-radius: 8px;
   font-size: 0.9rem;
-  font-weight: bold;
-  padding: 0.8rem 0; /* Added vertical padding */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  padding: 0.8rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile__social-link i {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .profile__social-link:hover,
